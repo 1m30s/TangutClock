@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="texts.xsd" Version="4.24.0">
+  <Languages>
+    <Language Id="GB" />
+  </Languages>
+  <Texts>
+    <TextGroup Id="Group1" />
+    <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_LZFJ" Alignment="Left" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_YE2Q" Alignment="Left" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_2QH4" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_1ARP" Alignment="Left" TypographyId="TangutMiddle">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_S7RB" Alignment="Center" TypographyId="TangutMiddle">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_ELEA" Alignment="Left" TypographyId="TangutMiddle">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_P6CY" Alignment="Center" TypographyId="TangutMiddle">
+        <Translation Language="GB">&lt;tag&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_NNS8" Alignment="Left" TypographyId="TangutLarge">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_WEZ9" Alignment="Center" TypographyId="TangutLarge">
+        <Translation Language="GB">&lt;tag&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_K3HA" Alignment="Left" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_0D4S" Alignment="Left" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_4800" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_OH9G" Alignment="Left" TypographyId="TangutLarge">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_SN8K" Alignment="Left" TypographyId="TangutLarge">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_INE9" Alignment="Left" TypographyId="TangutLarge">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_F5QG" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_OJOE" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_TRIL" Alignment="Left" TypographyId="TangutMiddle">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_Q1HK" Alignment="Center" TypographyId="TangutMiddle">
+        <Translation Language="GB">&lt;tag&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_P4UL" Alignment="Left" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_P3JK" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB">&lt;tag&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_66XL" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_J97W" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_WN60" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_UUQW" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB">&#10;</Translation>
+      </Text>
+      <Text Id="__SingleUse_JDCK" Alignment="Left" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_YKUH" Alignment="Left" TypographyId="Tangut60px">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_R89X" Alignment="Center" TypographyId="Tangut60px">
+        <Translation Language="GB">&lt;tag&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_I0MN" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_XOHI" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_X1OA" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_ILEP" Alignment="Left" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_65GX" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB">&lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_AYMU" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_H435" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_TX5L" Alignment="Center" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_WRD6" Alignment="Left" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_73D9" Alignment="Left" TypographyId="TangutSmall">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_Y2VO" Alignment="Left" TypographyId="Tangut60px">
+        <Translation Language="GB"></Translation>
+      </Text>
+      <Text Id="__SingleUse_I7IL" Alignment="Center" TypographyId="Tangut60px">
+        <Translation Language="GB">&lt;tag&gt;</Translation>
+      </Text>
+    </TextGroup>
+  </Texts>
+  <Typographies>
+    <Typography Id="Default" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="TangutSmall" Font="BabelStoneTangutLFW1997.ttf" Size="30" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters=" " />
+    <Typography Id="Tangut60px" Font="BabelStoneTangutLFW1997.ttf" Size="60" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters=" " />
+    <Typography Id="TangutMiddle" Font="BabelStoneTangutLFW1997.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters=" " />
+    <Typography Id="TangutLarge" Font="BabelStoneTangutLFW1997.ttf" Size="50" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters=" " />
+  </Typographies>
+</TextDatabase>

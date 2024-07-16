@@ -1,0 +1,6 @@
+*.html
+*.d
+*.o
+*.cyclo
+*/Debug/*
+*/Release/*

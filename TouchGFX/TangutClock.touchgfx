@@ -1,0 +1,1141 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Screen1",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 240,
+            "Height": 320,
+            "LockPosition": true,
+            "RelativeFilename": "paper_bg_240x320.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "Y": 6,
+            "Width": 240,
+            "Height": 50,
+            "RelativeFilename": "__generated\\glass_theme_images_bars_240x240_bottom_dim_dark.png"
+          },
+          {
+            "Type": "ScrollList",
+            "Name": "scrollListHour",
+            "X": 5,
+            "Y": 31,
+            "Width": 76,
+            "Height": 219,
+            "Snapping": true,
+            "IsHorizontal": true,
+            "IsCircular": true,
+            "ItemTemplateName": "CustomContainer1",
+            "NumberofItems": 24,
+            "Easing": "Quad",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          },
+          {
+            "Type": "ScrollList",
+            "Name": "scrollListMin",
+            "X": 81,
+            "Y": 31,
+            "Width": 72,
+            "Height": 219,
+            "Snapping": true,
+            "IsHorizontal": true,
+            "IsCircular": true,
+            "ItemTemplateName": "CustomContainer1",
+            "NumberofItems": 60,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          },
+          {
+            "Type": "ScrollList",
+            "Name": "scrollListSec",
+            "X": 161,
+            "Y": 31,
+            "Width": 79,
+            "Height": 219,
+            "Snapping": true,
+            "IsHorizontal": true,
+            "IsCircular": true,
+            "ItemTemplateName": "CustomContainer1",
+            "NumberofItems": 60,
+            "Easing": "Bounce",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_2",
+            "X": 183,
+            "Y": 221,
+            "Width": 35,
+            "Height": 35,
+            "TextId": "__SingleUse_ILEP",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 18,
+              "Green": 9,
+              "Blue": 4
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1",
+            "X": 26,
+            "Y": 221,
+            "Width": 35,
+            "Height": 35,
+            "TextId": "__SingleUse_WRD6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 18,
+              "Green": 9,
+              "Blue": 4
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "X": 103,
+            "Y": 221,
+            "Width": 35,
+            "Height": 35,
+            "TextId": "__SingleUse_73D9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 18,
+              "Green": 9,
+              "Blue": 4
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel2",
+            "X": 17,
+            "Y": 278,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_disabled.png",
+            "TextId": "__SingleUse_H435",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1",
+            "X": 128,
+            "Y": 278,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_normal.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_disabled.png",
+            "TextId": "__SingleUse_TX5L",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaDay",
+            "Y": 13,
+            "Width": 240,
+            "Height": 37,
+            "TextId": "__SingleUse_65GX",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 18,
+              "Green": 31,
+              "Blue": 48
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_JDCK",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "modalWindow1",
+            "Width": 240,
+            "Height": 320,
+            "Visible": false,
+            "FileName": "__generated\\light_theme_images_containers_small_wide_outlined_neutral.png",
+            "ModalX": 13,
+            "ModalY": 85,
+            "ModalWidth": 214,
+            "ModalHeight": 150,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "TextArea",
+                "Name": "textArea3",
+                "X": 20,
+                "Y": 13,
+                "Width": 175,
+                "Height": 85,
+                "TextId": "__SingleUse_UUQW",
+                "TextRotation": "0",
+                "LineSpacing": 6
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "buttonWithLabelYes",
+                "X": 4,
+                "Y": 98,
+                "Width": 100,
+                "Height": 36,
+                "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+                "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_action.png",
+                "TextId": "__SingleUse_WN60",
+                "ReleasedColor": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "PressedColor": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "TextRotation": "0",
+                "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_action.json"
+              },
+              {
+                "Type": "ButtonWithLabel",
+                "Name": "buttonWithLabelNo",
+                "X": 107,
+                "Y": 98,
+                "Width": 100,
+                "Height": 36,
+                "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_pressed.png",
+                "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_action.png",
+                "TextId": "__SingleUse_J97W",
+                "ReleasedColor": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "PressedColor": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "TextRotation": "0",
+                "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_action.json"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "OnTick",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 6
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "onTick"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen2"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel2"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "modalWindow1"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabelNo"
+            },
+            "Action": {
+              "Type": "ActionHide",
+              "ActionComponent": "modalWindow1"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabelYes"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "ScreenAdj"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen2",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 240,
+            "Height": 320,
+            "LockPosition": true,
+            "RelativeFilename": "paper_bg_240x320.png"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabel1",
+            "X": 13,
+            "Y": 273,
+            "Width": 100,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_disabled.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_regular_height_36_tiny_rounded_disabled.png",
+            "TextId": "__SingleUse_AYMU",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\regular\\height_36\\tiny_rounded_disabled.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 50,
+            "Width": 140,
+            "Height": 35,
+            "TextId": "__SingleUse_X1OA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 18,
+              "Green": 31,
+              "Blue": 48
+            }
+          },
+          {
+            "Type": "ScrollList",
+            "Name": "scrollListMin",
+            "X": 9,
+            "Width": 72,
+            "Height": 219,
+            "Snapping": true,
+            "IsHorizontal": true,
+            "IsCircular": true,
+            "ItemTemplateName": "CustomContainer1",
+            "NumberofItems": 60,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          },
+          {
+            "Type": "ScrollList",
+            "Name": "scrollListSec",
+            "X": 81,
+            "Width": 79,
+            "Height": 219,
+            "Snapping": true,
+            "IsHorizontal": true,
+            "IsCircular": true,
+            "ItemTemplateName": "CustomContainer1",
+            "NumberofItems": 60,
+            "Easing": "Quint",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "OverShootPercentage": 75
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaSubsec",
+            "X": 166,
+            "Y": 38,
+            "Width": 48,
+            "Height": 156,
+            "TextId": "__SingleUse_S7RB",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 173,
+              "Green": 36,
+              "Blue": 55
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_1ARP",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "WideTextAction": 5
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_2",
+            "X": 103,
+            "Y": 177,
+            "Width": 35,
+            "Height": 35,
+            "TextId": "__SingleUse_LZFJ",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 87,
+              "Green": 40,
+              "Blue": 15
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2_1",
+            "X": 28,
+            "Y": 177,
+            "Width": 35,
+            "Height": 35,
+            "TextId": "__SingleUse_YE2Q",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 87,
+              "Green": 40,
+              "Blue": 15
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabelStop",
+            "X": 8,
+            "Y": 219,
+            "Width": 110,
+            "Height": 50,
+            "Visible": false,
+            "Pressed": "__generated\\light_theme_images_widgets_button_regular_height_50_tiny_round_pressed.png",
+            "Released": "__generated\\light_theme_images_widgets_button_regular_height_50_tiny_round_active.png",
+            "TextId": "__SingleUse_I0MN",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "light_theme\\presets\\button\\regular\\height_50\\tiny_round_active.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabelReset",
+            "X": 123,
+            "Y": 219,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\light_theme_images_widgets_button_regular_height_50_tiny_round_pressed.png",
+            "Released": "__generated\\light_theme_images_widgets_button_regular_height_50_tiny_round_normal.png",
+            "TextId": "__SingleUse_2QH4",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "light_theme\\presets\\button\\regular\\height_50\\tiny_round_normal.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabelStart",
+            "X": 8,
+            "Y": 219,
+            "Width": 110,
+            "Height": 50,
+            "Pressed": "__generated\\light_theme_images_widgets_button_regular_height_50_tiny_round_pressed.png",
+            "Released": "__generated\\light_theme_images_widgets_button_regular_height_50_tiny_round_active.png",
+            "TextId": "__SingleUse_XOHI",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "light_theme\\presets\\button\\regular\\height_50\\tiny_round_active.json"
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabel1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "InteractionStop",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabelStop"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "onButtonStop"
+            }
+          },
+          {
+            "InteractionName": "InteractionStart",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabelStart"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "onButtonStart"
+            }
+          },
+          {
+            "InteractionName": "InteractionReset",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabelReset"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "onButtonReset"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ScreenAdj",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 240,
+            "Height": 320,
+            "RelativeFilename": "__generated\\light_theme_images_backgrounds_240x320_blurry_droplets.png"
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Name": "boxWithBorder1",
+            "X": 81,
+            "Y": 66,
+            "Width": 79,
+            "Height": 202,
+            "LockPosition": true,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderColor": {
+              "Red": 97,
+              "Green": 97,
+              "Blue": 97
+            },
+            "BorderSize": 5
+          },
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "X": 81,
+            "Y": 18,
+            "Width": 79,
+            "Height": 37,
+            "Color": {
+              "Red": 204,
+              "Green": 204,
+              "Blue": 204
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabelOK",
+            "X": 51,
+            "Y": 277,
+            "Width": 138,
+            "Height": 36,
+            "Pressed": "__generated\\light_theme_images_widgets_button_regular_height_36_small_round_pressed.png",
+            "Released": "__generated\\light_theme_images_widgets_button_regular_height_36_small_round_normal.png",
+            "TextId": "__SingleUse_66XL",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "light_theme\\presets\\button\\regular\\height_36\\small_round_normal.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaType",
+            "X": 81,
+            "Y": 19,
+            "Width": 79,
+            "Height": 36,
+            "TextId": "__SingleUse_P3JK",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_P4UL",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabelNext",
+            "X": 183,
+            "Y": 19,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_micro_fill_normal.png",
+            "TextId": "__SingleUse_OJOE",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\icon\\rounded\\micro_fill_normal.json"
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Name": "buttonWithLabelPrev",
+            "X": 22,
+            "Y": 18,
+            "Width": 36,
+            "Height": 36,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_micro_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_micro_fill_normal.png",
+            "TextId": "__SingleUse_F5QG",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Preset": "alternate_theme\\presets\\button\\icon\\rounded\\micro_fill_normal.json"
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "repeatButtonPrev",
+            "X": 10,
+            "Y": 133,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_normal.png",
+            "Delay": 200,
+            "Interval": 100,
+            "Preset": "alternate_theme\\presets\\button\\icon\\rounded\\tiny_fill_normal.json"
+          },
+          {
+            "Type": "RepeatButton",
+            "Name": "repeatButtonNext",
+            "X": 171,
+            "Y": 133,
+            "Width": 60,
+            "Height": 60,
+            "Pressed": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_pressed.png",
+            "Released": "__generated\\alternate_theme_images_widgets_button_icon_rounded_tiny_fill_normal.png",
+            "Delay": 200,
+            "Interval": 100,
+            "Preset": "alternate_theme\\presets\\button\\icon\\rounded\\tiny_fill_normal.json"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaValue4C",
+            "X": 88,
+            "Y": 68,
+            "Width": 65,
+            "Height": 197,
+            "Visible": false,
+            "TextId": "__SingleUse_P6CY",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 85,
+              "Green": 194,
+              "Blue": 8
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_ELEA",
+              "UseBuffer": true,
+              "BufferSize": 14
+            },
+            "WideTextAction": 5
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaValue2C",
+            "X": 88,
+            "Y": 96,
+            "Width": 65,
+            "Height": 135,
+            "TextId": "__SingleUse_WEZ9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 85,
+              "Green": 194,
+              "Blue": 8
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_NNS8",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "WideTextAction": 5
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textAreaValue3C",
+            "X": 88,
+            "Y": 91,
+            "Width": 65,
+            "Height": 175,
+            "Visible": false,
+            "TextId": "__SingleUse_Q1HK",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 85,
+              "Green": 194,
+              "Blue": 8
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_TRIL",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "WideTextAction": 5
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3_1",
+            "X": 22,
+            "Y": 146,
+            "Width": 35,
+            "Height": 35,
+            "TextId": "__SingleUse_K3HA",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea3",
+            "X": 184,
+            "Y": 146,
+            "Width": 35,
+            "Height": 35,
+            "TextId": "__SingleUse_0D4S",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabelOK"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "Screen1"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabelNext"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionNext1"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabelPrev"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionPrev1"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "repeatButtonPrev"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionPrev2"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "repeatButtonNext"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "functionNext2"
+            }
+          },
+          {
+            "InteractionName": "buttonOK",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonWithLabelOK"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "onButtonOK"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "ScreenStart",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 240,
+            "Height": 320,
+            "LockPosition": true,
+            "Color": {
+              "Red": 44,
+              "Green": 45,
+              "Blue": 48
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 174,
+            "Y": -2,
+            "Width": 66,
+            "Height": 322,
+            "TextId": "__SingleUse_INE9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 178,
+              "Green": 170,
+              "Blue": 154
+            },
+            "WideTextAction": 5
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 108,
+            "Y": -2,
+            "Width": 66,
+            "Height": 322,
+            "TextId": "__SingleUse_SN8K",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 178,
+              "Green": 170,
+              "Blue": 154
+            },
+            "WideTextAction": 5
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2",
+            "X": 42,
+            "Y": -2,
+            "Width": 66,
+            "Height": 322,
+            "TextId": "__SingleUse_OH9G",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 178,
+              "Green": 170,
+              "Blue": 154
+            },
+            "WideTextAction": 4
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_2_1",
+            "X": 3,
+            "Y": 131,
+            "Width": 46,
+            "Height": 150,
+            "TextId": "__SingleUse_4800",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 102,
+              "Green": 143,
+              "Blue": 40
+            },
+            "WideTextAction": 5
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 3,
+            "Y": 281,
+            "Width": 39,
+            "Height": 39,
+            "RelativeFilename": "logo_black2.png",
+            "Alpha": 122
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 240,
+            "Height": 320,
+            "Color": {
+              "Red": 10,
+              "Green": 9,
+              "Blue": 9
+            }
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionFade",
+              "Alpha": 0,
+              "Easing": "Linear",
+              "EasingOption": "In",
+              "Duration": 800,
+              "AnimationDelay": 100,
+              "ActionComponent": "box2"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerOnEveryTick",
+              "TickCount": 300
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionBlock",
+              "ActionComponent": "Screen1"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "CustomContainer1",
+        "Width": 79,
+        "Height": 219,
+        "Components": [
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "Width": 79,
+            "Height": 219,
+            "Visible": false,
+            "TextId": "__SingleUse_I7IL",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 133,
+              "Green": 67,
+              "Blue": 27
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_Y2VO",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "WideTextAction": 4
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea2",
+            "Y": 37,
+            "Width": 79,
+            "Height": 144,
+            "TextId": "__SingleUse_R89X",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 133,
+              "Green": 67,
+              "Blue": 27
+            },
+            "Wildcard1": {
+              "TextId": "__SingleUse_YKUH",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "WideTextAction": 4
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "TangutClock",
+    "Resolution": {
+      "Width": 240,
+      "Height": 320
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "ScreenStart",
+    "SelectedStartupLanguage": "GB",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 240,
+        "Height": 320
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Portrait",
+    "Family": "STM32F4",
+    "SubFamily": "STM32F429/439",
+    "Toolchain": "STM32CubeIDE",
+    "Platform": "m4",
+    "ProjectFile": "../STM32F429I_DISCO_REV_E01.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [],
+    "AdditionalFeatures": [
+      "CWRVector",
+      "VectorFonts"
+    ]
+  },
+  "Version": "4.24.0",
+  "CreatedBy": "4.24.0"
+}
